@@ -1,0 +1,17 @@
+{
+  "name": "npm",
+  "version": "1.0.0",
+  "description": "first node module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "ruchika sharma",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^5.0.0",
+    "es": "^0.8.0",
+    "es6": "^0.0.7",
+    "validator": "^13.7.0"
+  }
+}
