@@ -1,4 +1,7 @@
 const fs=require('fs');
-fs.writeFile('bio.txt',"hello, i'm ruchika sharma",(err,data)=>{
-    console.log("task completed");
+fs.mkdir('thapas',(err)=>{
+console.log("folder is created");
 })
+// fs.writeFile('bio.txt',"hello, i'm ruchika sharma",(err,data)=>{
+//     console.log("task completed");
+// })
