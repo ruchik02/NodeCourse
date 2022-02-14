@@ -14,6 +14,6 @@ const fs=require('fs');
 //     console.log('append file');
 // })
 
-fs.readFile('bio.txt',(err,data)=>{
+fs.readFile('./thapas/bio.txt','utf-8',(err,data)=>{
     console.log(data);
 })
