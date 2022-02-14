@@ -14,6 +14,12 @@ const fs=require('fs');
 //     console.log('append file');
 // })
 
-fs.readFile('./thapas/bio.txt','utf-8',(err,data)=>{
-    console.log(data);
+// fs.readFile('./thapas/bio.txt','utf-8',(err,data)=>{
+//     console.log(data);
+// })
+// fs.rename('./thapas/bio.txt','./thapas/mybio.txt',(err)=>{
+//     console.log('rename file');
+// });
+fs.unlink('./thapas/mybio.txt',(err)=>{
+console.log('file deletion');
 })
