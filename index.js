@@ -10,6 +10,10 @@ const fs=require('fs');
 //     console.log("file is created");
 // })
 
-fs.appendFile('./thapas/bio.txt'," yeah i'm good what about you ?",()=>{
-    console.log('append file');
+// fs.appendFile('./thapas/bio.txt'," yeah i'm good what about you ?",()=>{
+//     console.log('append file');
+// })
+
+fs.readFile('bio.txt',(err,data)=>{
+    console.log(data);
 })
