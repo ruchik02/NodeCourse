@@ -20,6 +20,9 @@ const fs=require('fs');
 // fs.rename('./thapas/bio.txt','./thapas/mybio.txt',(err)=>{
 //     console.log('rename file');
 // });
-fs.unlink('./thapas/mybio.txt',(err)=>{
-console.log('file deletion');
+// fs.unlink('./thapas/mybio.txt',(err)=>{
+// console.log('file deletion');
+// })
+fs.rmdir('./thapa',(err)=>{
+   console.log('remove folder');
 })
