@@ -8,6 +8,6 @@ const fs=require('fs');
 // console.log('task completed');
 // });
 
-fs.readFile('read.txt',(err,data)=>{
+fs.readFile('read.txt','UTF-8',(err,data)=>{
    console.log(data);
 })
