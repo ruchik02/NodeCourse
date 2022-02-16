@@ -1,13 +1,14 @@
+const fs=require('fs');
 const bioData={
     name:"Ruchika",
     age:25,
     channel:"Thapa Technical"
 };
-// console.log(bioData);
-// console.log(bioData.name);
-// if we want to change object in json then use stringify method
+
 const jsonData=JSON.stringify(bioData);
-console.log(jsonData);
-// if we want to change object to json then use parser method
-const objData=JSON.parse(jsonData);
-console.log(objData);
+fs.writeFile('json1.json', jsonData,(err)=>{
+    console.log('done');
+});
+fs.readFile("json1.json","utf-8",(err,data)=>{
+console.log(data);
+})
