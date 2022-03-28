@@ -1,0 +1,22 @@
+{
+  "name": "codeial",
+  "version": "1.0.0",
+  "description": "backend",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ruchik02/NodeCourse.git"
+  },
+  "author": "Ruchika Sharma",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ruchik02/NodeCourse/issues"
+  },
+  "homepage": "https://github.com/ruchik02/NodeCourse#readme",
+  "dependencies": {
+    "express": "^4.17.3"
+  }
+}
