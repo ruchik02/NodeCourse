@@ -1,5 +1,6 @@
 {
   "name": "codeial",
+  "type":"module",
   "version": "1.0.0",
   "description": "backend",
   "main": "index.js",
