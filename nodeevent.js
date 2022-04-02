@@ -12,3 +12,4 @@ myEmitter.on('event', () => {
 myEmitter.emit('event');
 console.log("the script is running");
 console.log("the script is still running");
+myEmitter.emit('event');
