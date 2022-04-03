@@ -1,0 +1,6 @@
+Node.js is an open-source and cross-platform JavaScript runtime environment.
+ It is a popular tool for almost any kind of project!
+ Nodejs runs the v8 JavaScript engine 
+ difference between nodeJs and browser
+ Both the browser and Node.js use JavaScript as their programming language.
+ V8 is the name of the JavaScript engine that powers Google Chrome. 
