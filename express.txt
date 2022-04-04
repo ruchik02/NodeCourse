@@ -1,0 +1,11 @@
+Express is a node.js framework.It is the most popular framework .
+expressJs is a web application framework that provides 
+you woth simple api to build websites,web apps and back ends.
+api 
+get -read
+post-create
+put-update
+delete-delete
+the callback parameter has two parameter req,res 
+the req object represents the HTTP request
+the res object recieve the HTTP request
