@@ -1,20 +1,28 @@
 Express is a node.js framework.It is the most popular framework .
 expressJs is a web application framework that provides 
 you woth simple api to build websites,web apps and back ends.
+####
 api 
 get -read
 post-create
 put-update
 delete-delete
+#######
 what is request and parameter
 the callback parameter has two parameter req,res 
 the req object represents the HTTP request
 the res object recieve the HTTP request
+######
 difference between send and json 
 res.send or res.json work same but the method are identical 
 when an object or array is passed 
 but res.json() will also convert non-objects
 such as null and undefined which are not  a valid json. 
+#######
 absolute or relative 
 absolute means full path 
 relative means relative path always start with ..
+######
+template engine in ejs pug,handlebars,ejs,mustache
+######
+if we use template engine then use views
