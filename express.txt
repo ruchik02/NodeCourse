@@ -15,3 +15,6 @@ res.send or res.json work same but the method are identical
 when an object or array is passed 
 but res.json() will also convert non-objects
 such as null and undefined which are not  a valid json. 
+absolute or relative 
+absolute means full path 
+relative means relative path always start with ..
