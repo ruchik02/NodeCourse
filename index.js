@@ -27,6 +27,12 @@ app.get('/about',(req,res)=>{
     });
 });
 
+app.get('*',(req,res)=>{
+    res.render('404',{
+        title:"404 error/not found"
+    });
+});
+
 
 app.listen(port,(req,res)=>{
     console.log("listening to the port",port);
