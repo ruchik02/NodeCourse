@@ -26,3 +26,7 @@ relative means relative path always start with ..
 template engine in ejs pug,handlebars,ejs,mustache
 ######
 if we use template engine then use views
+we can also customize the views like template
+########
+now that we have a server up and running 
+let's  display more information on our pages ad use partials and the hbs library to render views

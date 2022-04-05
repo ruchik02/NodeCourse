@@ -2,15 +2,18 @@ const path=require('path');
 const express=require('express');
 const app=express();
 const port=3000;
- const staticPath=path.join(__dirname,'../public');
- const templatePath=path.join(__dirname,'/view');
+const hbs=require('hbs');
+//  const staticPath=path.join(__dirname,'/public');
+ const templatePath=path.join(__dirname,'/templates/view');
+ const partialsPath=path.join(__dirname,'/templates/partials');
 
 // builtin middleware
-app.use(express.static(staticPath));
+// app.use(express.static(staticPath));
 
 // to set the view engine 
 app.set('view engine', 'hbs');
 app.set("views", templatePath);
+hbs.registerPartials(partialsPath);
 
 app.get('/',(req,res)=>{
     res.render('index',{
